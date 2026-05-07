@@ -10,18 +10,6 @@ Built using **Python AST parsing**, **NetworkX dependency graphs**, **Streamlit*
 
 ---
 
-## 🌟 Features
-
-- **Static Source Code Parsing**: Analyzes code without execution using Python's `ast` module.
-- **Function Dependency Tracking**: Automatically maps how functions call one another across your project.
-- **Downstream Impact Analysis**: Identify exactly which parts of the system will be affected by a change.
-- **Interactive Visualization**: Explore your codebase via a dynamic dependency graph.
-- **Risk Classification**: Automatically categorizes changes as **Low**, **Medium**, or **High** risk.
-- **AI Summaries**: Uses Ollama (Llama 3/Mistral) to generate natural language explanations of the impact.
-- **Modern UI**: Clean, interactive dashboard built with Streamlit.
-
----
-
 ## 🛠 Tech Stack
 
 * **Language:** Python 3.9+
@@ -48,5 +36,4 @@ CodeImpactAnalyzer/
 ├── assets/             # Documentation images and gifs
 │   └── codeimpact.gif
 │
-├── requirements.txt    # Project dependencies
 └── README.md           # Project documentation
