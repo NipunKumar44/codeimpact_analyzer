@@ -37,3 +37,44 @@ CodeImpactAnalyzer/
 │   └── codeimpact.gif
 │
 └── README.md           # Project documentation
+```
+
+---
+🚀 How to Run the Project
+1. Clone the Repository
+Bash
+
+git clone [https://github.com/your-username/CodeImpactAnalyzer.git](https://github.com/your-username/CodeImpactAnalyzer.git)
+cd CodeImpactAnalyzer
+
+2. Set Up a Virtual Environment
+Bash
+
+# Create environment
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+# Activate (Mac/Linux)
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+3. Initialize AI Model (Ollama)
+
+Ensure you have Ollama installed and running on your machine.
+Bash
+
+ollama pull llama3
+ollama run llama3
+
+4. Run the Application
+Bash
+
+streamlit run app.py
+
+5. Access the Dashboard
+
+Open your browser and navigate to:
+http://localhost:8501
