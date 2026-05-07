@@ -36,7 +36,6 @@ Built using Python AST parsing, NetworkX dependency graphs, Streamlit, and Ollam
 
 # Project Structure
 
-```text
 CodeImpactAnalyzer/
 │
 ├── app.py
@@ -52,54 +51,27 @@ CodeImpactAnalyzer/
 │
 ├── requirements.txt
 └── README.md
-```text
 
-How to Run the Project
-1. Clone the repository
+---
+
+# How to Run the Project
+
+## 1. Clone the repository
+
+```bash
 git clone https://github.com/your-username/CodeImpactAnalyzer.git
 cd CodeImpactAnalyzer
-2. Create a virtual environment (recommended)
-python -m venv venv
-
-Activate it:
-
-Windows
-
-venv\Scripts\activate
-
-Mac/Linux
-
-source venv/bin/activate
-3. Install dependencies
-pip install -r requirements.txt
-
-If requirements.txt is not available:
-
-pip install streamlit networkx matplotlib
-4. Install and run Ollama (for AI summaries)
-
-Download Ollama:
-https://ollama.com
-
-Then pull a model:
-
+2. Create virtual environment
 ollama run llama3
-
-Make sure Ollama is running locally before starting the app.
-
-5. Run the Streamlit app
+5. Run app
 streamlit run app.py
 6. Open in browser
 
-After running, open:
-
 http://localhost:8501
+
 Output Preview
-
-The tool will:
-
 Parse Python files
 Build dependency graphs
 Highlight impacted functions
-Generate AI-powered impact summaries
-Show interactive visualization in Streamlit UI
+Generate AI impact summaries
+Interactive visualization
