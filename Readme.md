@@ -123,12 +123,6 @@ http://localhost:8501
 
 ---
 
-## 📝 License
-
-This project is open source and available under the MIT License.
-
----
-
 <div align="center">
   <p>Made with ❤️ for developers who care about code quality</p>
 </div>
