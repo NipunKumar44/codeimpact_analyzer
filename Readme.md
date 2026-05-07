@@ -50,7 +50,9 @@ CodeImpactAnalyzer/
 ├── assets/
 │   └── codeimpact.gif
 │
+├── requirements.txt
 └── README.md
+```text
 
 How to Run the Project
 1. Clone the repository
@@ -61,26 +63,25 @@ python -m venv venv
 
 Activate it:
 
-Windows:
+Windows
 
 venv\Scripts\activate
 
-Mac/Linux:
+Mac/Linux
 
 source venv/bin/activate
 3. Install dependencies
 pip install -r requirements.txt
 
-If requirements.txt is not present, install manually:
+If requirements.txt is not available:
 
 pip install streamlit networkx matplotlib
 4. Install and run Ollama (for AI summaries)
 
 Download Ollama:
-
 https://ollama.com
 
-Pull a model:
+Then pull a model:
 
 ollama run llama3
 
