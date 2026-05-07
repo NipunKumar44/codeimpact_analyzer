@@ -1,4 +1,4 @@
-# 🔍 Code Impact Analyzer
+# Code Impact Analyzer
 
 <p align="center">
   <img src="assets/codeimpact.gif" alt="Code Impact Analyzer Demo" width="850"/>
